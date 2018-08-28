@@ -1,0 +1,95 @@
+.my-row{
+    background-image: url('ggm.jpg') ;
+    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.7s ease-in-out;
+}
+.my-col:hover{
+    background-color: rgba(197,22,22,0.4);
+}
+.second-col{
+    transition: all 0.7s ease-in-out;
+
+}
+.second-col:hover{
+    background-color: rgba(197,22,22,0.4);
+}
+
+.gmc-image{
+    width:100px;
+}
+.gmc-introduction{
+    color: white;
+
+}
+.intro-title{
+    font-weight: normal;
+    font-size: 500%
+}
+.intro-big-title{
+    display: flex;
+    font-weight: normal;
+    font-size: 1500%;
+    margin-top: -70px;
+    margin-bottom: -40px;
+
+}
+.gmc-title{
+    font-weight: normal;
+    color: white;
+    font-size: 500%;
+    text-align: center;
+}
+.my-span{
+    color:#c51616;
+    font-size: -200%;
+}
+.ser{
+    color:#c51616;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+    transition: all 0.7s ease-in-out;
+}
+.ser:hover{
+    color: white;
+    background-color: rgba(197,22,22,0.7);
+    border-radius : 30px;
+}
+/******************/
+.para-title{
+    background-color: #c51616;
+    color: white;
+}
+.second-row{
+    margin-top: 30px;
+}
+.niveau-title{
+    color: #c51616;
+    text-align: right;
+}
+.tt{
+    margin-top: -20px;
+    text-decoration: underline;
+}
+.parag{
+    border: 2px solid #c51616;
+    margin: 10px 30px;
+    transition: all 0.5s ease-in-out;
+}
+.parag:hover{
+    color: white;
+    background-color: rgba(197,22,22,0.7);
+    border:none;
+}
+.lorem-p{
+    margin: 7px;
+}
